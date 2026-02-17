@@ -7,7 +7,9 @@
 Аспект А1-2 – выполнен
 
  
- 
+ <img width="639" height="136" alt="image" src="https://github.com/user-attachments/assets/333f6bd9-7ab6-435c-8afb-2c8b62554efb" />
+<img width="639" height="136" alt="image" src="https://github.com/user-attachments/assets/333f6bd9-7ab6-435c-8afb-2c8b62554efb" />
+
  
  
  
