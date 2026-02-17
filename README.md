@@ -21,11 +21,13 @@
 Комментарий: расчет ip адресов был произведен верно
 
  
+
 Аспект А1-3 – не выполнен
 
 <img width="738" height="209" alt="image" src="https://github.com/user-attachments/assets/d4440103-64c1-44c1-8634-bce9f69132c3" />
 
 Комментарий: интерфейс vlan200 имеет id vlan2000
+
 
 Аспект А1-4 – выполнен
  
@@ -33,11 +35,13 @@
 
 Комментарий: на HQ-RTR и BR-RTR корректно настроен nftables, в nat настроено правило masquerade,что подтверждает использование технологии PAT для выхода в интернет
 
+
 Аспект А1-5 – выполнен
 
  <img width="974" height="721" alt="image" src="https://github.com/user-attachments/assets/f9097266-5ac3-4bac-b577-451705094a16" />
 
 Комментарий: устройства офиса branc не используют PAT для выхода в Интернет
+
 
 
 
@@ -57,16 +61,20 @@
 
 
 
+
 Аспект А1-7 –  не выполнен
 
  <img width="974" height="1183" alt="image" src="https://github.com/user-attachments/assets/f505a379-3ea6-4b7b-93d8-7672b5233aab" />
 
 Комментарий: установлено соседство не только по туннелю но и по другим интерфейсам  
-Аспект А1-8 –  не выполнен
+Аспект 
+
+А1-8 –  не выполнен
 
  <img width="618" height="1115" alt="image" src="https://github.com/user-attachments/assets/e7fa55b2-0ab4-417d-97ef-3fe79c40ce06" />
 
 Комментарий: на HQ-RTR не правильно настроен passive-interface enp7sl вместо enp7s1
+
 
 
 
@@ -79,11 +87,13 @@
 
 Комментарий: аутентификация настроена верно по ключам  
 
+
 Аспект А1-11 – выполнен
 
  <img width="974" height="406" alt="image" src="https://github.com/user-attachments/assets/9ca244b1-f001-4777-8666-396eb3fdcc86" />
 
 Комментарий: DHCP установлен и функционирует 
+
 
 Аспект А1-12 – не выполнен
  
@@ -92,11 +102,13 @@
 <img width="409" height="59" alt="image" src="https://github.com/user-attachments/assets/17605fbc-28ae-41d6-8cd4-4687cf020ddf" />
 
 Комментарий: не правильное доменное имя, на HQ-CLI домен настроен вручную 
+
 Аспект А1-13 – выполнен
 
  <img width="974" height="354" alt="image" src="https://github.com/user-attachments/assets/4c4a136b-0298-4238-8b01-4d58ae24fc8a" />
 
 Комментарий: в качестве dns используется dnsmasq
+
 
 Аспект А1-14 – выполнен cat /etc/dnsmasq.conf
  
@@ -106,6 +118,7 @@
 
 Комментарий: записи прямых зон разрешены и хранятся на HQ-SRV
 
+
 Аспект А1-15– не выполнен
  
  <img width="974" height="54" alt="image" src="https://github.com/user-attachments/assets/a98546d8-3479-4a96-9e1e-40158f012c29" />
@@ -113,6 +126,7 @@
 <img width="802" height="142" alt="image" src="https://github.com/user-attachments/assets/3b803699-9d57-452d-8ecc-8c734441a4fb" />
 
 Комментарий: обратные записи разрешаются но хранятся на HQ-SRV
+
 
 Аспект А2-1 
 
@@ -122,6 +136,7 @@
 
 Комментарий: присутствуют пользователи, имеющие права на исполнение sudo без пароля на BR-SRV и HQ-SRV
 
+
 Аспект А2-2  – выполнен
  
  <img width="974" height="216" alt="image" src="https://github.com/user-attachments/assets/87c95c0d-e016-4c9d-8188-11092e48a33d" />
@@ -130,11 +145,13 @@
 
 Комментарий: на машинах созданы пользователи net_admin и у них есть права на исполнение sudo без пароля.
 
+
 Аспект А2-3 – не выполнен
 
  <img width="974" height="427" alt="image" src="https://github.com/user-attachments/assets/2be094d0-0fa5-4d47-8da3-b6ce1eb82808" />
 
 Комментарий: нет, параметр MaxAuthTries равен 1, хотя в конфиге установлено 2, но даже если в конфиге 2, то ssh применяет первый найденный параметр, после первой отбросит. Также разрешен вход для root.
+
 
 Аспект А2-4 – не выполнен
 
@@ -142,11 +159,13 @@
 
 Комментарий: не активирован ntp пакет, поэтому systemctl его не видит. 
 
+
 Аспект А2-5 – выполнен
 
 <img width="773" height="233" alt="image" src="https://github.com/user-attachments/assets/2ad15fb2-8227-4a9f-8095-7174a69b0ca4" />
  
 Комментарий: Развертывание домена на BR-SRV осуществлено в соответствии с заданием 
+
 
 Аспект А2-6 – выполнен
 
@@ -154,11 +173,13 @@
 
 Комментарий: машина введена в домен пользователи аутентифицируются 
 
+
 Аспект А2-7 – не выполнен
 
  <img width="856" height="64" alt="image" src="https://github.com/user-attachments/assets/766f38d1-71df-453d-b95c-3a7de358840d" />
 
 Комментарий: настройка sudo не настроено, поэтому команды cat grep id не работают
+
 
 Аспект А2-8 – не выполнен
 
@@ -166,11 +187,13 @@
 
 Комментарий: docker активен, не корректное название контейнера testappp вместо testapp
 
+
 Аспект А2-9 – выполнен
 
  <img width="652" height="664" alt="image" src="https://github.com/user-attachments/assets/08af87d6-2c43-4d9c-9477-1f2d8d7dbdb8" />
 
 Комментарий: все необходимые хосты перечисленны, инвентарь сформирован верно
+
 
 Аспект А2-10 – выполнен
 
@@ -178,17 +201,20 @@
 
 Комментарий: pong без ошибок кроме предупреждения о хосте вне задания
 
+
 Аспект А2-12 – выполнен
 
  <img width="647" height="192" alt="image" src="https://github.com/user-attachments/assets/5e4e3a99-ae14-4639-b6e4-5a8a1315169b" />
 
 Комментарий: Web приложение доступно и функционирует  веб аутентификацией в соответствии с заданием
 
+
 Аспект А2-13 – не выполнен
 
  <img width="974" height="330" alt="image" src="https://github.com/user-attachments/assets/68df6c6a-f759-413f-839c-6f7a6df59e4b" />
 
 Комментарий: проброс портов выполнен только для docker приложений
+
 
 Аспект А2-14 – выполнен
 grep -r "HQ-SRV" /etc/ - HQ-SRV
@@ -198,6 +224,7 @@ grep -r "HQ-SRV" /etc/ - HQ-SRV
  <img width="658" height="142" alt="image" src="https://github.com/user-attachments/assets/f87a1ea2-4f1f-4ab2-9915-539fc325cc6b" />
 
 Комментарий: вместо RAID0 создан RAID1
+
 
 
 
