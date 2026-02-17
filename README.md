@@ -1,19 +1,17 @@
 Аспект А1-1 – не выполнен
 
- 
+  <img width="639" height="136" alt="image" src="https://github.com/user-attachments/assets/333f6bd9-7ab6-435c-8afb-2c8b62554efb" />
 
 Комментарий: на ISP доменное имя не совпадает с текстом задания
 
 Аспект А1-2 – выполнен
 
- 
- <img width="639" height="136" alt="image" src="https://github.com/user-attachments/assets/333f6bd9-7ab6-435c-8afb-2c8b62554efb" />
-<img width="639" height="136" alt="image" src="https://github.com/user-attachments/assets/333f6bd9-7ab6-435c-8afb-2c8b62554efb" />
+<img width="974" height="475" alt="image" src="https://github.com/user-attachments/assets/81dd576c-bece-4c4f-82c9-ca612b4077be" />
+<img width="974" height="475" alt="image" src="https://github.com/user-attachments/assets/81dd576c-bece-4c4f-82c9-ca612b4077be" />
 
- 
- 
- 
- 
+
+
+
 Комментарий: расчет ip адресов был произведен верно
 
  
