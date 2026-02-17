@@ -7,10 +7,16 @@
 Аспект А1-2 – выполнен
 
 <img width="974" height="475" alt="image" src="https://github.com/user-attachments/assets/81dd576c-bece-4c4f-82c9-ca612b4077be" />
-<img width="974" height="475" alt="image" src="https://github.com/user-attachments/assets/81dd576c-bece-4c4f-82c9-ca612b4077be" />
 
+<img width="974" height="787" alt="image" src="https://github.com/user-attachments/assets/2c9fc8c4-9577-49d7-9013-40130f08a406" />
 
+<img width="974" height="223" alt="image" src="https://github.com/user-attachments/assets/f59c7a17-252e-4c7a-9999-4cc92289b660" />
 
+<img width="974" height="223" alt="image" src="https://github.com/user-attachments/assets/b3f893ce-b467-4144-80da-b2dce460c3d8" />
+
+<img width="974" height="528" alt="image" src="https://github.com/user-attachments/assets/e352ceaf-7b6e-41c5-8a44-d6476a495f20" />
+
+<img width="974" height="486" alt="image" src="https://github.com/user-attachments/assets/ce5f083a-6e19-4e3f-ba1c-6b69ae13208f" />
 
 Комментарий: расчет ip адресов был произведен верно
 
